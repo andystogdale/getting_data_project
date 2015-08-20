@@ -13,3 +13,5 @@ The Run Analysis R script performs the following tasks:
 - Renames the activities to be easily readable in the dataset
 - Names the variables using the supplied codebook
 - Reshapes the data and aggregates it to obtain the mean values of all the observations for: Activity, Subject and Variable.
+
+To run the analysis, simply source the run_analysis.R script, and then call the function: run_analysis()

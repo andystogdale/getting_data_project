@@ -24,7 +24,6 @@ run_analysis <- function() {
   colNums <- as.numeric(features[,1])
    
   colNums <- c(colNums, ncol(all_binded)-1, ncol(all_binded))
-  colNums
   all_binded <- all_binded[, colNums]
   
   # ACTIVITY NAMING
